@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Transitions in Images</title>
+	<style type="text/css">
+		h1{
+			color: red;
+			text-align: center;
+		}
+		body{
+			background-color: aquamarine;
+		}
+		h2{
+			color: green;
+			text-align: center;
+		}
+		h3{
+			background-color: white;
+			color: black;
+			text-align: center;
+			margin-left: wrap-text;
+		}
+		.container{
+                text-align: center;
+                text-decoration: wavy;
+                display:flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            img{
+                width:450px;
+                height:350px;
+                margin:5px;
+                box-shadow: 4px 4px 4px yellow;
+            }
+            .i1:hover{
+            	transform: scale(1.1);
+            	transition: 1s;
+            }
+            .i2:hover{
+            	transform: scale(1.1);
+            	transition: 1s;
+            }
+            .i3:hover{
+            	transform: rotate(90deg);
+            	transition: 1s;
+            }
+            .i4:hover{
+            	transform: scale(1.1);
+            	transition: 0.5s;
+            }
+            .i5:hover{
+            	transform: rotate(720deg);
+            	transition: 1s;
+            }
+            .i6:hover{
+            	transform: scale(1.1);
+            	transition: 0.25s;
+            }
+	</style>
+</head>
+<body>
+	<h1>flower types</h1>
+	<h2>All transitions are using flex</h2>
+	<div class="container">
+		<img class="i1" src="f1.jpg" alt="flower 1">
+		<img class="i2" src="f2.jpg" alt="flower 2"><br>
+		<img class="i3" src="f3.jpg" alt="flower 3">
+		<img class="i4" src="f4.jpg" alt="flower 4"><br>
+		<img class="i5" src="f5.jpg" alt="flower 5">
+		<img class="i6" src="f6.jpg" alt="flower 6">
+	</div>
+	<h3>By:<br>Name - Samhitha Payyavula<br>Roll No - 1906118</h3>
+</body>
+</html>
